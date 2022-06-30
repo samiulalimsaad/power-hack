@@ -13,7 +13,9 @@ const SearchBar = () => {
                     </div>
                 </div>
                 <div>
-                    <button className="btn btn-primary">Add New Bill</button>
+                    <label htmlFor="add-new-bill" className="btn btn-primary">
+                        Add New Bill
+                    </label>
                 </div>
             </div>
         </div>
