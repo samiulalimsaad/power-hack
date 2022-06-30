@@ -1,20 +1,14 @@
 import { useState } from "react";
-import NavBar from "./Components/NavBar";
+import Layout from "./Components/Layout";
+import Table from "./Components/Table";
 
 function App() {
     const [count, setCount] = useState(0);
 
     return (
-        <>
-            <NavBar />
-            <button
-                className="btn btn-primary"
-                type="button"
-                onClick={() => setCount((count) => count + 1)}
-            >
-                count is: {count}
-            </button>
-        </>
+        <Layout>
+            <Table />
+        </Layout>
     );
 }
 
