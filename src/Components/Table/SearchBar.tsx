@@ -3,7 +3,7 @@ const SearchBar = () => {
         <div className="py-4 my-10 bg-slate-400 sm:px-20">
             <div className="flex justify-between">
                 <div className="flex">
-                    <a className="text-xl normal-case btn btn-ghost">Bolling</a>
+                    <a className="text-xl normal-case btn btn-ghost">Billing</a>
                     <div className="form-control">
                         <input
                             type="text"
